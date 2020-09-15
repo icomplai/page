@@ -3701,9 +3701,13 @@ li {
   display: block;
   margin-bottom: 45px; }
 
+iframe {
+  display: block;
+}
+
 .main_image {
   background-color: #F3F3F3;
-  padding: 45px 30px 30px 30px;
+  padding: 0
   text-align: center;
   position: relative; }
   .main_image-caption {
