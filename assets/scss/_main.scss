@@ -13,9 +13,12 @@ body {
   color: $color1;
   font-size: 2rem;
 }
-img {
+img, video {
   max-width: 100%;
   height: auto;
+}
+iframe {
+  display: block;
 }
 h2 {
   font-weight: normal;
@@ -269,8 +272,8 @@ li {
 }
 
 .main_image {
-  background-color: $color5;
-  padding: 45px 30px 30px 30px;
+  // background-color: $color5;
+  // padding: 45px 30px 30px 30px;
   text-align: center;
   position: relative;
   &-caption {
@@ -293,6 +296,9 @@ li {
     @media (max-width: 960px) {
       width: 100%;
     }
+  }
+  video {
+    display: block;
   }
 }
 
